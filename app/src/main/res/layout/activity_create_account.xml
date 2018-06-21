@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.caroline.collegeintegration.CreateAccountActivity">
+
+    <EditText
+        android:id="@+id/username_editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Username"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="131dp" />
+
+    <EditText
+        android:id="@+id/email_editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="185dp" />
+
+    <EditText
+        android:id="@+id/password_editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="241dp" />
+
+    <EditText
+        android:id="@+id/confirm_editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="295dp" />
+
+    <EditText
+        android:id="@+id/firstName_editText"
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="First"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <EditText
+        android:id="@+id/mi_editText"
+        android:layout_width="49dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="MI"
+        tools:layout_editor_absoluteX="319dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <EditText
+        android:id="@+id/lastName_editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Last"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="73dp" />
+
+    <CheckBox
+        android:id="@+id/terms_checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="I've read the Terms & Conditions"
+        tools:layout_editor_absoluteX="76dp"
+        tools:layout_editor_absoluteY="352dp" />
+
+    <Button
+        android:id="@+id/createAccount_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create Account"
+        tools:layout_editor_absoluteX="120dp"
+        tools:layout_editor_absoluteY="404dp" />
+</android.support.constraint.ConstraintLayout>

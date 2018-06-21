@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.caroline.collegeintegration.LoginActivity">
+
+    <EditText
+        android:id="@+id/username_editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name"
+        tools:layout_editor_absoluteX="84dp"
+        tools:layout_editor_absoluteY="148dp" />
+
+    <TextView
+        android:id="@+id/welcome_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome!"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="58dp" />
+
+    <EditText
+        android:id="@+id/password_editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autoText="false"
+        android:ems="10"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="84dp"
+        tools:layout_editor_absoluteY="249dp" />
+
+    <Button
+        android:id="@+id/login_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="352dp" />
+
+    <Button
+        android:id="@+id/newAccount_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Account"
+        tools:layout_editor_absoluteX="244dp"
+        tools:layout_editor_absoluteY="447dp" />
+
+    <CheckBox
+        android:id="@+id/rememberMe_checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Remember Me"
+        tools:layout_editor_absoluteX="145dp"
+        tools:layout_editor_absoluteY="308dp" />
+
+    <TextView
+        android:id="@+id/forgot_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Forgot your password/username?"
+        tools:layout_editor_absoluteX="87dp"
+        tools:layout_editor_absoluteY="411dp" />
+</android.support.constraint.ConstraintLayout>
